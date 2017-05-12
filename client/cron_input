@@ -1,1 +1,1 @@
-0 20 * * * cron.sh
+0 20 * * * /Users/edwardszc/GoogleDrive/GeneralCS/oSAFARI/client/cron.sh
