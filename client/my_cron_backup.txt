@@ -1,0 +1,1 @@
+* * * * * /Users/edwardszc/GoogleDrive/GeneralCS/oSAFARI/client/cron.sh
