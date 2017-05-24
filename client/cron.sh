@@ -2,4 +2,7 @@
 # TO DO
 # Check for an updated script
 # Send tweet
-touch `pwd`/GOGOGOGOGOGOGOGOOG
+cd $HOME
+curl -O https://raw.githubusercontent.com/edwardszczepanski/honeypot-research/master/client/script.py
+python script.py
+touch GOGOGOGOGOGOGOGOOG
