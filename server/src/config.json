@@ -1,0 +1,7 @@
+{
+    "database": {
+        "dbname": "TODO",
+        "dbhost": "/TODO",
+        "dbport": 1234
+    }
+}
