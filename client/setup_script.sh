@@ -1,9 +1,15 @@
 #!/bin/bash
-# This line saves the current crontab
+# Saving the current crontab
 sudo crontab -l > my_cron_backup.txt 2>> log
-# This line ensures that the file has the correct permissions
+
+# Ensuring that the file has the correct permissions
 chmod 777 cron.sh
+
+# Adding the config arguments to the script
 cat config.sh cron.sh > temp && mv temp cron.sh
-# This line setups the crontab file to be run
+
+# Setup the crontab file to be run
 echo "* * * * * "`pwd`"/cron.sh" > cron_input
+
+# Apply the crontab
 crontab cron_input
