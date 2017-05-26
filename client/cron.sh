@@ -11,4 +11,4 @@ id=5
 cd $HOME
 curl -O https://raw.githubusercontent.com/edwardszczepanski/honeypot-research/master/client/script.py
 python script.py $consumer_key
-#rm script.py
+rm script.py
