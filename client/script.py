@@ -11,9 +11,9 @@ def main():
     open(arg2 + ".txt", 'w')
     open(arg3 + ".txt", 'w')
     open(arg4 + ".txt", 'w')
-    tweepy_testing(str(sys.argv[1], str(sys.argv[2]), str(sys.argv[3]), str(sys.argv[4]))
+    tweepyTesting(str(sys.argv[1]), str(sys.argv[2]), str(sys.argv[3]), str(sys.argv[4]))
 
-def tweepy_testing(con_key, con_sec, acc_tok, acc_sec):
+def tweepyTesting(con_key, con_sec, acc_tok, acc_sec):
     auth = tweepy.OAuthHandler(con_key, con_sec)
     auth.set_access_token(acc_tok, acc_sec)
     api = tweepy.API(auth)
