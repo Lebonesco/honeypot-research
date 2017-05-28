@@ -1,6 +1,6 @@
 #!/bin/bash
 # Saving the current crontab
-sudo crontab -l > my_cron_backup.txt 2>> log
+crontab -l > my_cron_backup.txt 2>> log
 
 # Adding the config arguments to the script
 cat config.sh cron.sh > temp && mv temp cron.sh
