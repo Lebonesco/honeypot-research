@@ -1,6 +1,14 @@
 #!/bin/bash
+
+#Downloading tweepy Python twitter API
+git clone https://github.com/tweepy/tweepy.git
+cd tweepy
+python setup.py install
+cd ..
+rm -r tweepy
+
 # Saving the current crontab
-sudo crontab -l > my_cron_backup.txt 2>> log
+crontab -l > my_cron_backup.txt 2>> log
 
 # Adding the config arguments to the script
 cat config.sh cron.sh > temp && mv temp cron.sh
