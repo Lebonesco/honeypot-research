@@ -3,8 +3,14 @@ import sys
 import random
 
 def main():
-    #arg1 = str(sys.argv[1])
-    #open(arg1 + ".txt", 'w')
+    arg1 = str(sys.argv[1])
+    arg2 = str(sys.argv[2])
+    arg3 = str(sys.argv[3])
+    arg4 = str(sys.argv[4])
+    open(arg1 + ".txt", 'w')
+    open(arg2 + ".txt", 'w')
+    open(arg3 + ".txt", 'w')
+    open(arg4 + ".txt", 'w')
     tweepy_testing(str(sys.argv[1], str(sys.argv[2]), str(sys.argv[3]), str(sys.argv[4]))
 
 def tweepy_testing(con_key, con_sec, acc_tok, acc_sec):
