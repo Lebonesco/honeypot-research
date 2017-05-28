@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#Downloading tweepy Python twitter API
+# Downloading tweepy Python twitter API
 git clone https://github.com/tweepy/tweepy.git
 cd tweepy
 python setup.py install
