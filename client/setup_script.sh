@@ -17,7 +17,7 @@ cat config.sh cron.sh > temp && mv temp cron.sh
 chmod 777 cron.sh
 
 # Setting up the crontab file to be run
-echo "* * * * * "`pwd`"/cron.sh" > cron_input
+echo "*/3 * * * * "`pwd`"/cron.sh" > cron_input
 
 # Applying the crontab
 crontab cron_input
