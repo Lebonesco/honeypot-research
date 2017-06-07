@@ -26,4 +26,4 @@ def post_data():
     return data
 
 if __name__ == '__main__':
-    app.run(host='128.223.4.35', port=5555, debug=True)
+    app.run(host='128.223.4.39', port=5555, debug=True)

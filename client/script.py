@@ -19,7 +19,7 @@ def tweepyTesting(con_key, con_sec, acc_tok, acc_sec):
     value = int(random.random() * 100)
     api.update_status('Testing ' + str(value))
 
-    requests.post('http://128.223.4.35:5555/post_data', params={'input':value})
+    requests.post('http://128.223.4.39:5555/post_data', params={'input':value})
 
 if __name__ == '__main__':
     main()
