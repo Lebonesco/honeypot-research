@@ -2,7 +2,7 @@
     "database": {
         "dbname": "test",
         "dbhost": "/edward",
-        "dbport": 5432,
+        "dbport": 4529,
         "dbuser": "edward",
         "dbpassword": "1234"
     }
